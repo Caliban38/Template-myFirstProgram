@@ -1,4 +1,4 @@
-# this program is about converting initials letter in Ascii.
+# This program is about converting letters in Ascii.
 
 ----
 ## This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a complet program with test.
@@ -7,7 +7,7 @@
 
 ----
 ## usage
-1. Write markdown text in this textarea.
+1. Go to src/ascii/Ascii.java
 2. Click 'HTML Preview' button.
 
 ----
