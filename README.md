@@ -2,17 +2,15 @@
 
 ----
 ## This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a complet program with test.
+----
+## usage
 
 > This program is under construction, at the end it will prompt letters to the user and then convert then to Ascii and maybe several other "font". Then the program will return the converted character on a single line.
 
-----
-## usage
-1. Go to src/ascii/Ascii.java
-2. Click 'HTML Preview' button.
 
 ----
 ## markdown quick reference
-# headers
+## headers
 
 *emphasis*
 
