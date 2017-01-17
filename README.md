@@ -1,10 +1,9 @@
-# this program is about converting initials letter in Ascii policy
+# this program is about converting initials letter in Ascii.
 
 ----
 ## This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a complet program with test.
-see [Wikipedia](http://en.wikipedia.org/wiki/Markdown)
 
-> Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people "to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)".
+> This program is under construction, at the end it will prompt letters to the user and then convert then to Ascii and maybe several other "font". Then the program will return the converted character on a single line.
 
 ----
 ## usage
