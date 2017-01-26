@@ -1,6 +1,6 @@
 # This program is about converting letters in Ascii.
 ----
-## This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a more complet program. It was made in intership as the first approach of coding exemple.
+> This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a more complet program. It was made in intership as the first approach of coding exemple.
 ----
 ## Usage :
 
@@ -9,18 +9,23 @@
 ----
 ## Program presentation:
 	
-	Here we will describe the program. The user comes through internet on the web site and then files an input box with his chosen letters and then click on a button-box to convert them in the Ascii font.
+> Here we will describe the program. The user comes through internet on the web site and then files an input box with his chosen letters and then click on a button-box to convert them in the Ascii font.
 
 ----
-## headers
+## Code description:
 
 *emphasis*
 
 **strong**
 
-* list
+*This is the package Font:
 
->block quote
+>package font;
+public interface FontInterface 
+{
+	public byte getLineHeight();
+	public CaracterInterface getCaracter(char character);	
+}
 
     code (4 spaces indent)
 [links](http://wikipedia.org)
