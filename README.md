@@ -1,6 +1,7 @@
-# This program is about converting letters in Ascii.
+# This program is about converting letters in Ascii by using a java program.
 ----
-> This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a more complet program. It was made in intership as the first approach of coding exemple.
+> This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a more complet program. It was made in intership as the first approach of coding exemple in object-concept method.
+
 ----
 ## Usage :
 
@@ -20,15 +21,14 @@
 
 *it's used for in the package Font for declarating two public methods. One to get the line height of the letter and another one to get the template of the character.
 
->package font;
+
+
+package font;
 public interface FontInterface 
 {
 	public byte getLineHeight();
 	public CaracterInterface getCaracter(char character);	
 }
-
-    code (4 spaces indent)
-
 
 ----
 ## changelog
@@ -38,5 +38,5 @@ public interface FontInterface
 ## thanks
  
 * Our tutor Cyril Itchi <br/>
-* [markdown-js](https://github.com/evilstreak/markdown-js)<br/>
+* 
 * [links](http://wikipedia.org)<br/>
