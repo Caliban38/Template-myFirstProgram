@@ -1,13 +1,16 @@
 # This program is about converting letters in Ascii.
 ----
-## This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a complet program with test. It was made in intership as the first approach of coding exemple.
+## This is my first program and it will be used at template for further repository. The code is basic, and it will be improve to show a more complet program. It was made in intership as the first approach of coding exemple.
 ----
-## usage
+## usage:
 
-> This program is under construction, at the end it will prompt letters to the user and then convert it to Ascii and maybe several other font. Then the program will return the converted characters on a single line.
+> This program is under construction, at the end it will prompt letters to the user and then convert it to Ascii. Then the program will return the converted characters on a single line.
 
 ----
-## markdown quick reference
+## Code explanation:
+
+
+----
 ## headers
 
 *emphasis*
@@ -29,4 +32,4 @@
 ## thanks
  
 * Our tutor Cyril Itchi
-*[markdown-js](https://github.com/evilstreak/markdown-js)
+* [markdown-js](https://github.com/evilstreak/markdown-js)
