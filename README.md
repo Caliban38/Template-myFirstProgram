@@ -27,5 +27,6 @@
 
 ----
 ## thanks
-* [markdown-js](https://github.com/evilstreak/markdown-js)
+ 
 * Our tutor Cyril Itchi
+*[markdown-js](https://github.com/evilstreak/markdown-js)
