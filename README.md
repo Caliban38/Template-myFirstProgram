@@ -19,17 +19,18 @@
 
 **This is the FontInterface:**
 
-*it's used for in the package Font for declarating two public methods. One to get the line height of the letter and another one to get the template of the character.
 
+>
 
+    package font;
+    public interface FontInterface 
+    {
+	    public byte getLineHeight();
+		public CaracterInterface getCaracter(char character);	
+    }
 
-package font;
-public interface FontInterface 
-{
-	public byte getLineHeight();
-	public CaracterInterface getCaracter(char character);	
-}
-
+	
+*it's used for in the package Font for declarating two public methods. One to get the line height of the letter and another one to get the template of the character.*
 ----
 ## changelog
 * 17-Feb-2013 re-design
@@ -39,4 +40,4 @@ public interface FontInterface
  
 * Cyril Itchi our tutor <br/>
 * 
-* [links](http://wikipedia.org)<br/>
+* 
