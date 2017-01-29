@@ -21,6 +21,45 @@
 >Here we will introduce all class and interface from the program.
 
 
+**AbstractFont:**
+
+
+>
+
+    package font;
+    public abstract class AbstractFont 
+    {
+        protected byte lineHeight;
+        protected CaracterInterface[] caracter;
+        protected abstract void initLineHeight();
+        protected abstract CaracterInterface createCaracter ( char caracter);
+        protected  AbstractFont()
+        {
+            this.initLineHeight();
+		this.caracter = new CaracterInterface[255];
+        }
+	     public byte getLineHeight()
+	    {
+		return this.lineHeight;
+	    }
+	    public CaracterInterface getCaracter(char caracter)
+	    {
+		if (null == this.caracter[caracter]){
+		    this.caracter[caracter] = this.createCaracter(caracter);
+		}
+		return this.caracter[caracter];
+	    }
+    }
+
+
+	
+*It's an abstract class used in the package Font for declarating two protected attributes. This class declare also two protected methods and three publics.*
+
+ *The first attributes is a variable call lineHeight with byte type and the second is caracter an array with CaracterInterface type.*
+
+*The two first protected methods are here for initializing the value of lineHeight and the value of the CaracterInterface array.*
+
+
 **FontInterface:**
 
 
@@ -34,7 +73,7 @@
     }
 
 	
-*It's used in the package Font for declarating two public methods. One to get the line height of the letter and another one to get the template of the character in Ascii corresponding to the choice of the user.*
+*Interface used in the package Font for declarating two publics methods. One to get the line height of the letter and another one to get the template of the character in Ascii corresponding to the choice of the user.*
 
 
 **CaracterInterface:**
@@ -52,7 +91,7 @@
     }
 
 	
-*It's used for in the package Font for declarating two public methods. One to get the string of caracter input by the user and another one to get the template of the character.*
+*Interface used in the package Font for declarating two publics methods. One to get the string of caracter input by the user and another one to get the template of the character.*
 
 
 
