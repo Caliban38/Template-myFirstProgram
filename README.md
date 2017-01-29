@@ -37,6 +37,6 @@ public interface FontInterface
 ----
 ## thanks
  
-* Our tutor Cyril Itchi <br/>
+* Cyril Itchi our tutor <br/>
 * 
 * [links](http://wikipedia.org)<br/>
